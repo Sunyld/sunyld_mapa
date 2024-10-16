@@ -1,0 +1,82 @@
+/* Estilo do corpo da página */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Estilo do contêiner do dashboard */
+#dashboard-container {
+    padding: 20px;
+}
+
+/* Estilo do título principal */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo para as estatísticas no dashboard */
+#stats {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.stat {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    text-align: center;
+    flex: 1;
+}
+
+/* Estilo da tabela de coordenadas */
+#coordinate-table-container {
+    overflow-x: auto; /* Para permitir rolagem em telas menores */
+}
+
+#coordinate-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+#coordinate-table th, 
+#coordinate-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#coordinate-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+#coordinate-table tbody tr:hover {
+    background-color: #f1f1f1; /* Destaca a linha ao passar o mouse */
+}
+
+/* Estilo dos ícones de ação na tabela */
+.actions i {
+    cursor: pointer;
+    margin: 0 5px;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.actions i:hover {
+    color: #0056b3; /* Cor do ícone ao passar o mouse */
+}
+
+/* Estilo do gráfico */
+#locationChart {
+    max-height: 400px; /* Tamanho máximo do gráfico */
+}
+
+/* Estilo adicional para a tabela de coordenadas */
+#coordinate-table {
+    margin-top: 10px; /* Margem superior da tabela */
+}
